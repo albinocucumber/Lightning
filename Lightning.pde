@@ -14,7 +14,7 @@ void setup()
 void draw()
 {
   stroke((int)(Math.random() * 256),(int)(Math.random() * 256),(int)(Math.random() * 256));
-  while(startX < 1001){
+  while(startX < 501){
     endX = startX + (int)((Math.random() * 10)-5);
     endY = startY + (int)((Math.random() * 10)-5);
     line(startX, startY, endX, endY);
@@ -22,13 +22,13 @@ void draw()
     startY = endY;
   }
   numLines++;
-  if(numLines >= 10){
+  if(numLines >= 20){
     noLoop();
   }else{
-  startX = 500;
-  startY = 500;
-  endX = 150;
-  endY = 150;
+  startX = 250;
+  startY = 250;
+  endX = 0;
+  endY = 0;
   }
 }
 void mousePressed()
