@@ -6,7 +6,7 @@ int numLines = 1;
 
 void setup()
 {
-  size(1000,1000);
+  size(500,500);
   strokeWeight(3);
   background(1);
   frameRate(30);
@@ -22,7 +22,7 @@ void draw()
     startY = endY;
   }
   numLines++;
-  if(numLines >= 5){
+  if(numLines >= 10){
     noLoop();
   }else{
   startX = 500;
