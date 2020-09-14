@@ -22,7 +22,7 @@ void draw()
     startY = endY;
   }
   numLines++;
-  if(numLines >= 20){
+  if(numLines >= 5){
     noLoop();
   }else{
   startX = 500;
@@ -33,8 +33,10 @@ void draw()
 }
 void mousePressed()
 {
-  startX = 50;
-  startY = 50;
-  endX = 150;
-  endY = 150;
+  fill(1);
+  square(0, 0, 1050);
+  startX = 500;
+  startY = 500;
+  endX = 0;
+  endY = 0;
 }
