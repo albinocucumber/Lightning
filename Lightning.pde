@@ -1,5 +1,5 @@
-int startX = 500;
-int startY = 500;
+int startX = 250;
+int startY = 250;
 int endX = 0;
 int endY = 0;
 int numLines = 1;
@@ -35,8 +35,8 @@ void mousePressed()
 {
   fill(1);
   square(0, 0, 1050);
-  startX = 500;
-  startY = 500;
+  startX = 250;
+  startY = 250;
   endX = 0;
   endY = 0;
 }
